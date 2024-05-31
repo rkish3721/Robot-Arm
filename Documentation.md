@@ -4,8 +4,11 @@
 
 This is the design for our project. We will have a claw pick up a can and put it in the trash.
 ### Evidence
-![Screenshot 2024-05-31 112944](https://github.com/rkish3721/Robot-Arm/assets/143533539/2fc78cb3-c3b4-4d7b-8184-4ee4718a973d)
+### Top left
+![Screenshot 2024-05-31 112944](https://github.com/rkish3721/Robot-Arm/assets/143533539/2fc78cb3-c3b4-4d7b-8184-4ee4718a973d)   
+### Back
 ![image](https://github.com/rkish3721/Robot-Arm/assets/143533539/8f66b934-dc45-4211-ac79-1159919d017c)
+### Left
 ![image](https://github.com/rkish3721/Robot-Arm/assets/143533539/6cd61eda-9c41-4b91-9fdf-fd9f4dd7cdef)
 
 
