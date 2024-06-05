@@ -13,6 +13,7 @@ Our assignment was to create a functioning robot arm from scratch. We had to hav
 ![IMG_0649](https://github.com/rkish3721/Robot-Arm/assets/143533539/316ca892-452a-438c-b211-9b782e676725)
 
 ### Working
+![IMG_06512-ezgif com-optimize](https://github.com/rkish3721/Robot-Arm/assets/143533539/ed77baed-798b-431a-9936-67c816d43cd0)
 
 
 
