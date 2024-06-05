@@ -26,7 +26,91 @@ This is the design for our project. We will have a claw pick up a can and put it
 
 
 ### Code
+python'''
+# # SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
 
+"""CircuitPython Essentials Servo standard servo example"""
+import time
+import board
+import pwmio
+from adafruit_motor import servo
+from digitalio import DigitalInOut, Direction, Pull
+
+
+# create a PWMOut object on Pin A2.
+
+
+pwm1 = pwmio.PWMOut(board.A0, duty_cycle=2 ** 15, frequency=50)
+pwm2 = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
+pwm3 = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+# Create a servo object, GripperServo.
+GripperServo = servo.Servo(pwm1)
+ArmServoA = servo.Servo(pwm2)
+ArmServoB = servo.Servo(pwm3)
+
+GripperButton = DigitalInOut(board.D10)
+ArmButtonA1 = DigitalInOut(board.D11)
+ArmButtonB1 = DigitalInOut(board.D12)
+
+GripperButton.direction = Direction.INPUT
+ArmButtonA1.direction = Direction.INPUT
+ArmButtonB1.direction = Direction.INPUT
+
+GripperButton.pull = Pull.DOWN
+ArmButtonA1.pull = Pull.DOWN
+ArmButtonB1.pull = Pull.DOWN
+
+GripperButton2 = DigitalInOut(board.D13)
+ArmButtonA2 = DigitalInOut(board.D7)
+ArmButtonB2 = DigitalInOut(board.D6)
+
+GripperButton2.direction = Direction.INPUT
+ArmButtonA2.direction = Direction.INPUT
+ArmButtonB2.direction = Direction.INPUT
+
+GripperButton2.pull = Pull.DOWN
+ArmButtonA2 = Pull.DOWN
+ArmButtonB2 = Pull.DOWN
+
+CurrentGripperAngle = 90
+CurrentArmAAngle = 90 
+CurrentArmBAngle = 90 # Initialize the angle
+GripperServo.angle=CurrentGripperAngle
+ArmServoA.angle=CurrentArmAAngle
+ArmServoB.angle=CurrentArmBAngle 
+
+while True:
+    if GripperButton.value:  # GripperButton is pressed (remember, we're assuming it's pull-down)
+        CurrentGripperAngle = CurrentGripperAngle + 1
+        CurrentGripperAngle = max(0, min(180, CurrentGripperAngle))
+        GripperServo.angle = CurrentGripperAngle  # Set the new angle
+    if GripperButton2.value:  # GripperButton is pressed (remember, we're assuming it's pull-down)
+        print(CurrentGripperAngle)
+        CurrentGripperAngle = CurrentGripperAngle - 1
+        CurrentGripperAngle = max(0, min(180, CurrentGripperAngle))
+        GripperServo.angle = CurrentGripperAngle  # Set the new angle
+    if ArmButtonA1.value:  # ArmButtonA1 is pressed (remember, we're assuming it's pull-down)
+        CurrentArmAAngle = CurrentArmAAngle + 1
+        CurrentArmAAngle = max(0, min(180, CurrentArmAAngle))
+        ArmServoA.angle = CurrentArmAAngle  # Set the new angle
+    if ArmButtonA2.value:  # ArmButtonA1 is pressed (remember, we're assuming it's pull-down)
+        print(CurrentArmAAngle)
+        CurrentArmAAngle = CurrentArmAAngle - 1
+        CurrentArmAAngle = max(0, min(180, CurrentArmAAngle))
+        ArmServoA.angle = CurrentArmAAngle  # Set the new angle
+    if ArmButtonB1.value:  # ArmButtonA1 is pressed (remember, we're assuming it's pull-down)
+        CurrentArmBAngle = CurrentArmBAngle + 1
+        CurrentArmBAngle = max(0, min(180, CurrentArmBAngle))
+        ArmServoB.angle = CurrentArmBAngle  # Set the new angle
+    if ArmButtonB2.value:  # ArmButtonA1 is pressed (remember, we're assuming it's pull-down)
+        print(CurrentArmBAngle)
+        CurrentArmBAngle = CurrentArmBAngle - 1
+        CurrentArmBAngle = max(0, min(180, CurrentArmBAngle))
+        ArmServoB.angle = CurrentArmBAngle  # Set the new angle
+    time.sleep(0.01)  # Small delay to avoid excessive checking
+'''
 ### Wiring
 ![image](https://github.com/rkish3721/Robot-Arm/assets/143533512/517dab42-1290-40be-af97-fea0422d426a)
 
