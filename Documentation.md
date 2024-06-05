@@ -1,7 +1,8 @@
 ## Robot Gripper Project
 
 ### Assignment Description
-This is the design for our project. We will have a claw pick up a can and put it in the trash.
+Our assignment was to create a functioning robot arm from scratch. We had to have a goal in mind, and take into consideration our time, risks, and capabilities. Our Idea was to create an arm that could reach around a desk and pick up trash. We were unable to make this automated, so we aimed to make this manual. We used seven buttons to control the movement of the three servos, and one to control the main motor. The motor would control the yaw, while two servos controlled the movement of the two arm peices. A final servo is used to control the gripper movement. 
+
 ### Evidence
 
 ### Side 
