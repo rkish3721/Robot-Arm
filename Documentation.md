@@ -26,7 +26,7 @@ This is the design for our project. We will have a claw pick up a can and put it
 
 
 ### Code
-python'''
+```python
 # # SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
 #
 # SPDX-License-Identifier: MIT
@@ -110,7 +110,7 @@ while True:
         CurrentArmBAngle = max(0, min(180, CurrentArmBAngle))
         ArmServoB.angle = CurrentArmBAngle  # Set the new angle
     time.sleep(0.01)  # Small delay to avoid excessive checking
-'''
+```
 ### Wiring
 ![image](https://github.com/rkish3721/Robot-Arm/assets/143533512/517dab42-1290-40be-af97-fea0422d426a)
 
