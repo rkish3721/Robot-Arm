@@ -13,7 +13,6 @@ Our assignment was to create a functioning robot arm from scratch. We had to hav
 ![IMG_0649](https://github.com/rkish3721/Robot-Arm/assets/143533539/316ca892-452a-438c-b211-9b782e676725)
 
 ### Working
-![IMG_06512-ezgif com-optimize](https://github.com/rkish3721/Robot-Arm/assets/143533539/ed77baed-798b-431a-9936-67c816d43cd0)
 
 
 
@@ -137,7 +136,7 @@ One problem we experienced was getting the gears to align. We needed the right s
 Some nuggets of wisdom that we acquired on this project were time management using different tools on Onshape. Our time management at the beginning of the project was atrocious and we took a while to start. We then figured out how to accurately manage our time and we made good headway on the project. We also learned how to use the coincident tool while making our final arm piece. My advice to the reader that would lead to a better project than ours would be to start on time and use your time wisely. Time is money in this project and if you don't use your time well you won't succeed. 
 
 ### Reflection
-This assignment was a tough final assignment where we didn't lock in in the beginning so we had a lot of work to do at the end. We struggled with starting the Onshape and working on the different arm pieces. We also needed to get the right amount of teeth on the gears. Ryan did the code and did very well and we did the onshape together. The code was a simple control of multiple servo motors using buttons.
+This assignment was a tough final assignment where we didn't lock in in the beginning so we had a lot of work to do at the end. We struggled with starting the Onshape and working on the different arm pieces. We also needed to get the right amount of teeth on the gears. Ryan did the code and did very well and we did the onshape together. The code was a simple control of multiple servo motors using buttons. While we were slacking in the first part, we focused a lot and were working hard for at least 4 weeks. 
 
 ### Obituary
 The death of our project is deeply saddening to us. The main failure for us during this project was our time management. We didn't use our time well at the beginning of this project which led to the death of the project. We tried to make a comeback in the month of May but fell just short. If we were to continue to be able to work on this project we would have used our time better so we would be able to print more than once. This would increase our chances of success on the project and we are deeply crushed that we failed to use our time well.
