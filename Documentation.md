@@ -28,6 +28,7 @@ This is the design for our project. We will have a claw pick up a can and put it
 ### Code
 
 ### Wiring
+![image](https://github.com/rkish3721/Robot-Arm/assets/143533512/517dab42-1290-40be-af97-fea0422d426a)
 
 ### Process and Schedule
 Ryan and I took a while to start this project but we have worked diligently for the last month and a half. We have completed our Onshape and we worked on the code and wiring over the weekend. We also changed seats which is a sacrifice we were willing to make to lock in on our project. We started with the Onshape which took a while and then we did the wiring and code over the last weekend of May. 
