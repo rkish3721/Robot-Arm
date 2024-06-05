@@ -1,9 +1,12 @@
-## Robot Gripper Design
+## Robot Gripper Project
 
 ### Assignment Description
-
 This is the design for our project. We will have a claw pick up a can and put it in the trash.
 ### Evidence
+![IMG_0648](https://github.com/rkish3721/Robot-Arm/assets/143533539/27671293-1a1a-4aae-89be-a008eea46a69)
+![IMG_0649](https://github.com/rkish3721/Robot-Arm/assets/143533539/316ca892-452a-438c-b211-9b782e676725)
+
+
 ### Top left
 ![Screenshot 2024-05-31 112944](https://github.com/rkish3721/Robot-Arm/assets/143533539/2fc78cb3-c3b4-4d7b-8184-4ee4718a973d)   
 ### Back
